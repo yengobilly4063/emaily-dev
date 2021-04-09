@@ -9,7 +9,7 @@ require("./services/passport");
 
 //Mongo DB Connection
 mongoose
-  .connect(keys.mongoURI_remote, {
+  .connect(keys.mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
